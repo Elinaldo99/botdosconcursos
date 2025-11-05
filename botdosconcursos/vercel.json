@@ -4,6 +4,8 @@
     { "src": "api/bot.py", "use": "@vercel/python" }
   ],
   "routes": [
+    { "src": "/set_webhook", "dest": "/api/bot" },
+    { "src": "/api/bot", "dest": "/api/bot" },
     { "src": "/(.*)", "dest": "/api/bot" }
   ]
 }
