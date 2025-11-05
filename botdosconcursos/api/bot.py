@@ -6,7 +6,7 @@ from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup
 
 # Configuração (use variáveis de ambiente no Vercel):
 TOKEN = os.environ.get("8231368795:AAGK95Q-X1XkVO0hsKJJZtjSiBjTzot18iE")
-WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "https://botdosconcursos.vercel.app/api/bot")
+WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "https://botdosconcursos-7sb4uqxmc-elinaldo99s-projects.vercel.app/set_webhook")
 
 if not TOKEN:
     raise RuntimeError("TELEGRAM_BOT_TOKEN não definido nas variáveis de ambiente")
